@@ -1,0 +1,37 @@
+body {
+    background-color: #9EC2EE;
+    background-image: url("../img/bee.png");
+    background-repeat: repeat;
+}
+
+.tb_block {
+    background-color: #069;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+
+.tb_block tr td {
+    padding: 10px 10px 10px 10px;
+}
+
+.cboxdiv {
+    position: fixed;
+    width: 30%;
+    height: 80%;
+    font-size: 0;
+    line-height: 0;
+}
+
+#cboxdiv div {
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    border: #ababab 1px solid;
+}
+
+.btn_enviar{
+    cursor:pointer;
+}
